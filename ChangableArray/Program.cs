@@ -11,7 +11,7 @@ for (int i = 0; i < arr.Length; i++)
 		}
 	}
 }
-int mid = (arr[arr.Length-1] + arr[0])/2;
+int mid = arr.Length/ 2;
 Console.WriteLine(mid);
 for (int i = mid; i < arr.Length; i++)
 {
